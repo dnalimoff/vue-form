@@ -1,0 +1,39 @@
+{
+  "fields": [
+    { 
+      "type": "text", 
+      "label": "Имя", 
+      "model": "name",
+      "placeholder": "Введите имя",
+      "required": true 
+    },
+    { 
+      "type": "email", 
+      "label": "Email", 
+      "model": "email",
+      "placeholder": "example@mail.com", 
+      "required": true 
+    },
+    {
+      "type": "password",
+      "label": "Пароль",
+      "model": "password",
+      "placeholder": "Минимум 6 символов",
+      "required": true,
+      "minLength": 6
+    },
+    {
+      "type": "select",
+      "label": "Роль",
+      "model": "role",
+      "options": ["Админ", "Пользователь"],
+      "required": true
+    },
+    {
+      "type": "checkbox",
+      "label": "Согласен с условиями",
+      "model": "term",
+      "required": true
+    }
+  ]
+}
