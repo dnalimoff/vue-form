@@ -1,4 +1,16 @@
-# Форма на vue
+# Vue Form Generator
+
+Компонент автоформы на Vue 3, который строит форму на основе JSON-схемы.
+
+## Демо
+
+Форма доступна на GitHub Pages:
+
+```
+https://dnalimoff.github.io/vue-form/
+```
+
+## Запуск проекта
 
 ### Склонировать репозиторий
 
@@ -12,17 +24,25 @@ git clone git@github.com:dnalimoff/vue-form.git && cd vue-form
 npm i
 ```
 
-### Запустить локально сборку 
+### Запустить локально
 
 ```
 npm run dev
 ```
 
-### Использовал в разработке
+### Проверить сборку
 
-`Vue 3`, `TypeScript`, `Tailwind`
+```
+npm run build
+```
 
-### JSON-схема формы лежи по пути
+## Стек
+
+`Vue 3`, `TypeScript`, `Tailwind CSS`, `Vite`
+
+## JSON-схема формы
+
+Схема формы находится по пути:
 
 ```
 src/data/formSchema.json
